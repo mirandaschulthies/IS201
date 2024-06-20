@@ -1,0 +1,132 @@
+/* Custom Styles for Scratch Page */
+
+/* Body and basic elements */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header.masthead {
+    position: relative;
+    background-color: #343a40;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Main content */
+.container {
+    margin-top: 30px;
+}
+
+/* Custom div styles */
+.custom-div {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+}
+
+/* Custom font styles */
+.custom-font {
+    font-family: 'Lora', serif;
+    color: #6c757d;
+    font-size: 18px;
+}
+
+/* Custom anchor styles */
+a.custom-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a.custom-link:hover {
+    text-decoration: underline;
+}
+
+/* Custom unordered and ordered lists */
+ul.custom-list, ol.custom-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.custom-list li, ol.custom-list li {
+    padding: 5px 0;
+}
+
+/* Custom styles for lists within lists */
+ol.custom-list li ul.custom-list {
+    margin-left: 20px;
+}
+
+/* Positioned divs */
+.positioned-div {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 100px;
+    background-color: #ffc107;
+    z-index: 1000;
+}
+
+/* Additional custom styles */
+.bg-custom {
+    background-color: #e9ecef;
+}
+
+.text-custom {
+    color: #17a2b8;
+}
+
+.border-custom {
+    border: 2px solid #28a745;
+}
+
+/* Custom table styles */
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-custom th, .table-custom td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-custom th {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.table-custom tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Custom background for pickleball section */
+.pickleball-bg {
+    background-image: url('../assets/img/pickleball-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Styles for embedded video */
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}

@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+    color: #0056b3;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+.container {
+    padding: 20px;
+}
